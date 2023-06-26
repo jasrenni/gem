@@ -1,0 +1,95 @@
+.App {
+  width: 1940px;
+  height: 772px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.box-1 {
+  display: flex;
+  width: 401px;
+  height: 182px;
+  padding: 18px 26px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 27px 10px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  background: #fff;
+  box-shadow: 0px 4px 21px 2px #c7d2ff;
+  display: inline-block;
+  margin: 60px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 50;
+}
+
+div {
+  padding-right: 1rem;
+}
+.middle {
+  display: flex;
+  width: 215px;
+  height: 43px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 55px;
+  font-family: Inter;
+  font-weight: 700;
+}
+.symbol {
+  width: 45px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.head {
+  display: flex;
+  width: 277px;
+  height: 30px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-family: Inter;
+  font-weight: 700;
+}
+.bottom {
+  display: flex;
+  width: 277px;
+  height: 30px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #00b649;
+  font-size: 22px;
+  font-family: Inter;
+  font-weight: 500;
+}
+.appartment {
+  display: flex;
+  width: 303px;
+  height: 97px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 35px;
+  font-family: Inter;
+  font-weight: 700;
+}
